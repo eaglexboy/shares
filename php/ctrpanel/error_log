@@ -1,0 +1,6 @@
+[26-Aug-2014 13:05:29 America/Chicago] PHP Fatal error:  Call to undefined function close_db() in /home/eagleboy/public_html/shares/ctrpanel/shiptype.php on line 93
+[26-Aug-2014 13:05:32 America/Chicago] PHP Fatal error:  Call to undefined function close_db() in /home/eagleboy/public_html/shares/ctrpanel/shiptype.php on line 93
+[26-Aug-2014 13:08:50 America/Chicago] PHP Fatal error:  Call to undefined function close_db() in /home/eagleboy/public_html/shares/ctrpanel/shiptype.php on line 93
+[26-Aug-2014 13:09:01 America/Chicago] PHP Fatal error:  Call to a member function fetch_row() on a non-object in /home/eagleboy/public_html/shares/ctrpanel/type.php on line 107
+[26-Aug-2014 13:10:49 America/Chicago] PHP Fatal error:  Call to a member function fetch_row() on a non-object in /home/eagleboy/public_html/shares/ctrpanel/ships.php on line 216
+[26-Aug-2014 13:12:33 America/Chicago] PHP Fatal error:  Call to a member function fetch_row() on a non-object in /home/eagleboy/public_html/shares/ctrpanel/type.php on line 107
