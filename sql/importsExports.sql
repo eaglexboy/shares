@@ -16,10 +16,10 @@ SET time_zone = "+00:00";
 CREATE TABLE IF NOT EXISTS `imports_exports` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `destination_id` int(11) NOT NULL COMMENT 'System''s ID',
-  `goods_id` int(11) NOT NULL COMMENT 'Good ID',
+  `good_id` int(11) NOT NULL COMMENT 'Good ID',
   `export` tinyint(1) NOT NULL COMMENT 'Export or Import',
   PRIMARY KEY (`id`),
-  KEY `good_id` (`goods_id`),
+  KEY `good_id` (`good_id`),
   KEY `destination` (`destination_id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 COMMENT='System import/Export Links' AUTO_INCREMENT=28 ;
 
@@ -27,7 +27,7 @@ CREATE TABLE IF NOT EXISTS `imports_exports` (
 -- Dumping data for table `imports_exports`
 --
 
-INSERT INTO `imports_exports` (`id`, `destination_id`, `goods_id`, `export`) VALUES
+INSERT INTO `imports_exports` (`id`, `destination_id`, `good_id`, `export`) VALUES
 (1, 4, 15, 1),
 (2, 4, 8, 0),
 (3, 4, 3, 0),
