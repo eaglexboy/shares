@@ -28,7 +28,6 @@
 /********************************** Dependencies *******************************/
 #include <stdio.h>
 #include <stdlib.h>
-#include <my_global.h>
 #include <mysql.h>
 #include "economy.h"
 #include "commonfunctions.h"

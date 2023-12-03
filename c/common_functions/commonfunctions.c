@@ -28,7 +28,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <my_global.h>
 #include <mysql.h>
 #include <math.h>
 #include "commonfunctions.h"

@@ -38,10 +38,6 @@ extern "C"
 # include <stdio.h>
 #endif
 
-#ifndef _global_h
-#include <my_global.h>
-#endif
-
 #ifndef _mysql_h
 #include <mysql.h>
 #endif
